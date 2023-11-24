@@ -1,0 +1,1035 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400");
+@import url("https://use.fontawesome.com/releases/v6.4.2/css/all.css");
+@media screen and (min-width: 430px) {
+    .Conteudo {
+        display: none;
+    }
+}
+
+.erro {
+    display: block;
+    color: red;
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 389px) {
+    .erro {
+        display: none;
+    }
+
+    body {
+        background-color: #7fd1b9;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+    .logo {
+        margin: 0;
+        width: 100%;
+        padding: 0, 10px;
+    }
+
+    .contatos_top{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-family: 'Roboto Condensed', sans-serif;
+        padding-right: 35px;
+        font-weight: 200%;
+        margin-top: -25px;
+    }
+
+    a{
+        border-radius: 4px;
+        width: 210px;
+        height: 80px;
+        background-color: #9BD6BF;
+        text-decoration: none;
+        box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.22), 1px 0px 0px 0px rgba(0,0,0,0.22), 1px 2px 0px 0px rgba(0,0,0,0.22), 2px 1px 0px 0px rgba(0,0,0,0.22), 2px 3px 0px 0px rgba(0,0,0,0.22), 3px 2px 0px 0px rgba(0,0,0,0.22), 3px 4px 0px 0px rgba(0,0,0,0.22), 4px 3px 0px 0px rgba(0,0,0,0.22), 4px 5px 0px 0px rgba(0,0,0,0.22), 5px 4px 0px 0px rgba(0,0,0,0.22), 5px 6px 0px 0px rgba(0,0,0,0.22), 6px 5px 0px 0px rgba(0,0,0,0.22), 6px 7px 0px 0px rgba(0,0,0,0.22), 7px 6px 0px 0px rgba(0,0,0,0.22), 7px 8px 0px 0px rgba(0,0,0,0.22), 8px 7px 0px 0px rgba(0,0,0,0.22);
+    }
+    .escrito_whatsapp, .escrito_instagram{
+        color: #0e0d0d;
+    }
+
+    .li_contatos{
+        list-style: none;
+        margin: 0, 5px;
+    }
+
+    .fa-brands{
+        color: #108375;
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    #whatsappLink{
+        cursor: pointer;
+    }
+    #instagramLink{
+        cursor: pointer;
+    }
+
+    .title_comedouros {
+        display: flex;
+        justify-content: center;
+        background-color: #7EB6A4;
+        padding: 0;
+        align-items: flex-end;
+        margin: 0;
+        border-style: solid;
+        border-radius: 12px 12px 0px 0px;
+        padding: 0%;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+    }
+
+    .comedouro_img {
+        height: 100%;
+        width: 100%;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .container_comedouro_ben {
+        display: flex;
+        max-height: 380px;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .container_comedouro_ben_2 {
+        display: flex;
+        max-height: 380px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .comedouro2_img {
+        height: 100%;
+        width: 100%;
+        border-radius: 0px 0px 12px 12px;
+    }
+
+    .imagens_comedouros {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+
+    }
+
+    .beneficios-list {
+        background-color: #3BA585;
+        height: 310px;
+        border-radius: 0px 12px 12px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        align-items: flex-start;
+    }
+
+    .a,
+    .b,
+    .c,
+    .d,
+    .e,
+    .f {
+        line-height: 1.0;
+        display: flex;
+        text-align: center;
+        justify-content: flex-start;
+        align-items: center;
+        color: #ECE2D0;
+        list-style-type: none;
+        background: url('checked.png') no-repeat;
+        background-size: 15px;
+        padding-left: 30px;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        font-weight: 10%;
+    }
+
+    .title_ben {
+        line-height: 1.0;
+        display: flex;
+        text-align: center;
+        justify-content: flex-start;
+        align-items: center;
+        color: #ECE2D0;
+        list-style-type: none;
+        background-size: 15px;
+        padding-left: 30px;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        font-weight: 10%;
+    }
+
+
+    .a,
+    .c,
+    .e {
+        background-color: #369679
+    }
+
+
+    .beneficios-list_2 {
+        background-color: #3BA585;
+        ;
+        height: 310px;
+        border-radius: 12px 0px 0px 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        align-items: flex-start;
+    }
+
+    .caminha_img {
+        height: 100%;
+        width: 100%;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .caminha2_img {
+        height: 10%;
+        width: 100%;
+        border-radius: 0px 0px 12px 12px;
+    }
+
+    .title_caminhas {
+        display: flex;
+        justify-content: center;
+        background-color: #7EB6A4;
+        padding: 0;
+        align-items: flex-end;
+        margin: 0;
+        border-style: solid;
+        border-radius: 12px 12px 0px 0px;
+        padding: 0%;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+    }
+
+
+    .sobre_nos_container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #9BD6BF;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #759587;
+        border-width: 2px;
+    }
+
+    .sobre_nos_txt {
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #759587;
+        border-width: 2px;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .sobre_nos_video {
+        padding-top: 20px;
+    }
+
+    #whatsapp_button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #25D366;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 50px auto auto;
+    }
+
+    #whatsapp_button :hover {
+        background-color: #128C7E;
+    }
+
+    #whatsapp_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 390px) and (max-width: 400px) {
+    .erro {
+        display: none;
+    }
+    
+
+    body {
+        background-color: #7fd1b9;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+    .logo {
+        margin: 0;
+        width: 100%;
+        padding: 0, 10px;
+    }
+
+    .contatos_top{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-family: 'Roboto Condensed', sans-serif;
+        padding-right: 35px;
+        font-weight: 200%;
+        margin-top: -25px;
+    }
+
+    a{
+        border-radius: 4px;
+        width: 210px;
+        height: 80px;
+        background-color: #9BD6BF;
+        text-decoration: none;
+        box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.22), 1px 0px 0px 0px rgba(0,0,0,0.22), 1px 2px 0px 0px rgba(0,0,0,0.22), 2px 1px 0px 0px rgba(0,0,0,0.22), 2px 3px 0px 0px rgba(0,0,0,0.22), 3px 2px 0px 0px rgba(0,0,0,0.22), 3px 4px 0px 0px rgba(0,0,0,0.22), 4px 3px 0px 0px rgba(0,0,0,0.22), 4px 5px 0px 0px rgba(0,0,0,0.22), 5px 4px 0px 0px rgba(0,0,0,0.22), 5px 6px 0px 0px rgba(0,0,0,0.22), 6px 5px 0px 0px rgba(0,0,0,0.22), 6px 7px 0px 0px rgba(0,0,0,0.22), 7px 6px 0px 0px rgba(0,0,0,0.22), 7px 8px 0px 0px rgba(0,0,0,0.22), 8px 7px 0px 0px rgba(0,0,0,0.22);
+    }
+    .escrito_whatsapp, .escrito_instagram{
+        color: #0e0d0d;
+    }
+
+    .li_contatos{
+        list-style: none;
+        margin: 0, 5px;
+    }
+
+    .fa-brands{
+        color: #108375;
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    #whatsappLink{
+        cursor: pointer;
+    }
+    #instagramLink{
+        cursor: pointer;
+    }
+    .title_comedouros {
+        display: flex;
+        justify-content: center;
+        background-color: #7EB6A4;
+        padding: 0;
+        align-items: flex-end;
+        margin: 0;
+        border-style: solid;
+        border-radius: 12px 12px 0px 0px;
+        padding: 0%;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+    }
+
+    .comedouro_img {
+        height: 100%;
+        width: 100%;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .container_comedouro_ben {
+        display: flex;
+        max-height: 380px;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .container_comedouro_ben_2 {
+        display: flex;
+        max-height: 380px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .comedouro2_img {
+        height: 100%;
+        width: 100%;
+        border-radius: 0px 0px 12px 12px;
+    }
+
+    .imagens_comedouros {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+
+    }
+
+    .beneficios-list {
+        background-color: #3BA585;
+        height: 360px;
+        border-radius: 0px 12px 12px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        align-items: flex-start;
+    }
+
+    .a,
+    .b,
+    .c,
+    .d,
+    .e,
+    .f {
+        line-height: 1.5;
+        display: flex;
+        text-align: center;
+        justify-content: flex-start;
+        align-items: center;
+        color: #ECE2D0;
+        list-style-type: none;
+        background: url('checked.png') no-repeat;
+        background-size: 15px;
+        padding-left: 30px;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        font-weight: 300%;
+    }
+
+    .a,
+    .c,
+    .e {
+        background-color: #369679;
+    }
+
+    .title_ben {
+        line-height: 1.0;
+        display: flex;
+        text-align: center;
+        justify-content: flex-start;
+        align-items: center;
+        color: #ECE2D0;
+        list-style-type: none;
+        background-size: 15px;
+        padding-left: 30px;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        font-weight: 300%;
+    }
+
+    .beneficios-list_2 {
+        background-color: #3BA585;
+        height: 360px;
+        border-radius: 12px 0px 0px 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        align-items: flex-start;
+    }
+
+
+    .caminha_img {
+        height: 100%;
+        width: 100%;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .caminha2_img {
+        height: 100%;
+        width: 100%;
+        border-radius: 0px 0px 12px 12px;
+    }
+
+    .title_caminhas {
+        display: flex;
+        justify-content: center;
+        background-color: #7EB6A4;
+        padding: 0;
+        align-items: flex-end;
+        margin: 0;
+        border-style: solid;
+        border-radius: 12px 12px 0px 0px;
+        padding: 0%;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+    }
+
+    .sobre_nos_container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #9BD6BF;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #759587;
+        border-width: 2px;
+    }
+
+    .sobre_nos_txt {
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #759587;
+        border-width: 2px;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .sobre_nos_video {
+        padding-top: 20px;
+    }
+
+    #whatsapp_button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #25D366;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 50px auto auto;
+    }
+
+    #whatsapp_button :hover {
+        background-color: #128C7E;
+    }
+
+    #whatsapp_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 415px) {
+    .erro {
+        display: none;
+    }
+
+    body {
+        background-color: #7fd1b9;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+    .logo {
+        margin: 0;
+        width: 100%;
+        padding: 0, 10px;
+    }
+
+    .contatos_top{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-family: 'Roboto Condensed', sans-serif;
+        padding-right: 35px;
+        font-weight: 200%;
+        margin-top: -25px;
+    }
+
+    a{
+        border-radius: 4px;
+        width: 210px;
+        height: 80px;
+        background-color: #9BD6BF;
+        text-decoration: none;
+        box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.22), 1px 0px 0px 0px rgba(0,0,0,0.22), 1px 2px 0px 0px rgba(0,0,0,0.22), 2px 1px 0px 0px rgba(0,0,0,0.22), 2px 3px 0px 0px rgba(0,0,0,0.22), 3px 2px 0px 0px rgba(0,0,0,0.22), 3px 4px 0px 0px rgba(0,0,0,0.22), 4px 3px 0px 0px rgba(0,0,0,0.22), 4px 5px 0px 0px rgba(0,0,0,0.22), 5px 4px 0px 0px rgba(0,0,0,0.22), 5px 6px 0px 0px rgba(0,0,0,0.22), 6px 5px 0px 0px rgba(0,0,0,0.22), 6px 7px 0px 0px rgba(0,0,0,0.22), 7px 6px 0px 0px rgba(0,0,0,0.22), 7px 8px 0px 0px rgba(0,0,0,0.22), 8px 7px 0px 0px rgba(0,0,0,0.22);
+    }
+    .escrito_whatsapp, .escrito_instagram{
+        color: #0e0d0d;
+    }
+
+    .li_contatos{
+        list-style: none;
+        margin: 0, 5px;
+    }
+
+    .fa-brands{
+        color: #108375;
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    #whatsappLink{
+        cursor: pointer;
+    }
+    #instagramLink{
+        cursor: pointer;
+    }
+
+    .title_comedouros {
+        display: flex;
+        justify-content: center;
+        background-color: #7EB6A4;
+        padding: 0;
+        align-items: flex-end;
+        margin: 0;
+        border-style: solid;
+        border-radius: 12px 12px 0px 0px;
+        margin-bottom: 10px;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+    }
+
+    .comedouro_img {
+        height: 75%;
+        width: 85%;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .container_comedouro_ben {
+        display: flex;
+        max-height: 380px;
+        align-items: center;
+        margin-bottom: 25px;
+        background-color: #3BA585 ;
+        border-radius: 10%;
+    }
+
+    .container_comedouro_ben_2 {
+        display: flex;
+        max-height: 380px;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: #3BA585 ;
+        border-radius: 10%;
+    }
+
+    .comedouro2_img {
+        height: 75%;
+        width: 85%;
+        border-radius: 0px 0px 12px 12px;
+        margin-bottom: 40px;
+    }
+
+    .imagens_comedouros {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+        align-items: center;
+        padding-top: 10%;
+    }
+
+    .beneficios-list {
+        background-color: #369679;
+        height: 310px;
+        border-radius: 0px 12px 12px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .a,
+    .b,
+    .c,
+    .d,
+    .e,
+    .f {
+        line-height: 1.0;
+        display: flex;
+        text-align: center;
+        justify-content: flex-start;
+        align-items: center;
+        color: #ECE2D0;
+        list-style-type: none;
+        background: url('checked.png') no-repeat;
+        background-size: 15px;
+        padding-left: 30px;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        font-weight: 10%;
+    }
+
+    .title_ben {
+        line-height: 1.0;
+        display: flex;
+        text-align: center;
+        justify-content: flex-start;
+        align-items: center;
+        color: #ECE2D0;
+        list-style-type: none;
+        background-size: 15px;
+        padding-left: 30px;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        font-weight: 10%;
+    }
+
+
+    .a,
+    .c,
+    .e {
+        background-color: #3BA585;
+    }
+
+
+    .beneficios-list_2 {
+        background-color: #369679;
+        ;
+        height: 310px;
+        border-radius: 12px 0px 0px 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        align-items: flex-start;
+    }
+
+    .caminha_img {
+        height: 75%;
+        width: 85%;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .caminha2_img {
+        height: 75%;
+        width: 85%;
+        border-radius: 0px 0px 12px 12px;
+        margin-bottom: 40px;
+    }
+
+    .title_caminhas {
+        display: flex;
+        justify-content: center;
+        background-color: #7EB6A4;
+        padding: 0;
+        align-items: flex-end;
+        margin: 0;
+        border-style: solid;
+        border-radius: 12px 12px 0px 0px;
+        padding: 0%;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        margin-bottom: 10px;
+    }
+
+
+    .sobre_nos_container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #9BD6BF;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #759587;
+        border-width: 2px;
+    }
+
+    .sobre_nos_txt {
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #759587;
+        border-width: 2px;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .sobre_nos_video {
+        padding-top: 20px;
+    }
+
+    #whatsapp_button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #25D366;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 50px auto auto;
+    }
+
+    #whatsapp_button :hover {
+        background-color: #128C7E;
+    }
+
+    #whatsapp_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 416px) and (max-width: 429px) {
+    .erro {
+        display: none;
+    }
+
+    body {
+        background-color: #7fd1b9;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+    }
+
+    .logo {
+        margin: 0;
+        width: 100%;
+        padding: 0, 10px;
+    }
+
+    .contatos_top{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-family: 'Roboto Condensed', sans-serif;
+        padding-right: 35px;
+        font-weight: 200%;
+        margin-top: -25px;
+    }
+
+    a{
+        border-radius: 4px;
+        width: 210px;
+        height: 80px;
+        background-color: #9BD6BF;
+        text-decoration: none;
+        box-shadow: 0px 1px 0px 0px rgba(0,0,0,0.22), 1px 0px 0px 0px rgba(0,0,0,0.22), 1px 2px 0px 0px rgba(0,0,0,0.22), 2px 1px 0px 0px rgba(0,0,0,0.22), 2px 3px 0px 0px rgba(0,0,0,0.22), 3px 2px 0px 0px rgba(0,0,0,0.22), 3px 4px 0px 0px rgba(0,0,0,0.22), 4px 3px 0px 0px rgba(0,0,0,0.22), 4px 5px 0px 0px rgba(0,0,0,0.22), 5px 4px 0px 0px rgba(0,0,0,0.22), 5px 6px 0px 0px rgba(0,0,0,0.22), 6px 5px 0px 0px rgba(0,0,0,0.22), 6px 7px 0px 0px rgba(0,0,0,0.22), 7px 6px 0px 0px rgba(0,0,0,0.22), 7px 8px 0px 0px rgba(0,0,0,0.22), 8px 7px 0px 0px rgba(0,0,0,0.22);
+    }
+    .escrito_whatsapp, .escrito_instagram{
+        color: #0e0d0d;
+    }
+
+    .li_contatos{
+        list-style: none;
+        margin: 0, 5px;
+    }
+
+    .fa-brands{
+        color: #108375;
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    #whatsappLink{
+        cursor: pointer;
+    }
+    #instagramLink{
+        cursor: pointer;
+    }
+
+    .title_comedouros {
+        display: flex;
+        justify-content: center;
+        background-color: #7EB6A4;
+        padding: 0;
+        align-items: flex-end;
+        margin: 0;
+        border-style: solid;
+        border-radius: 12px 12px 0px 0px;
+        margin-bottom: 10px;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+    }
+
+    .comedouro_img {
+        height: 75%;
+        width: 85%;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .container_comedouro_ben {
+        display: flex;
+        max-height: 380px;
+        align-items: center;
+        margin-bottom: 25px;
+        background-color: #3BA585 ;
+        border-radius: 10%;
+    }
+
+    .container_comedouro_ben_2 {
+        display: flex;
+        max-height: 380px;
+        align-items: center;
+        margin-bottom: 20px;
+        background-color: #3BA585 ;
+        border-radius: 10%;
+    }
+
+    .comedouro2_img {
+        height: 75%;
+        width: 85%;
+        border-radius: 0px 0px 12px 12px;
+        margin-bottom: 40px;
+    }
+
+    .imagens_comedouros {
+        display: flex;
+        flex-direction: column;
+        padding-right: 0px;
+        align-items: center;
+        padding-top: 10%;
+    }
+
+    .beneficios-list {
+        background-color: #369679;
+        height: 310px;
+        border-radius: 0px 12px 12px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .a,
+    .b,
+    .c,
+    .d,
+    .e,
+    .f {
+        line-height: 1.0;
+        display: flex;
+        text-align: center;
+        justify-content: flex-start;
+        align-items: center;
+        color: #ECE2D0;
+        list-style-type: none;
+        background: url('checked.png') no-repeat;
+        background-size: 15px;
+        padding-left: 30px;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        font-weight: 10%;
+    }
+
+    .title_ben {
+        line-height: 1.0;
+        display: flex;
+        text-align: center;
+        justify-content: flex-start;
+        align-items: center;
+        color: #ECE2D0;
+        list-style-type: none;
+        background-size: 15px;
+        padding-left: 30px;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        font-weight: 10%;
+    }
+
+
+    .a,
+    .c,
+    .e {
+        background-color: #3BA585;
+    }
+
+
+    .beneficios-list_2 {
+        background-color: #369679;
+        ;
+        height: 310px;
+        border-radius: 12px 0px 0px 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        align-items: flex-start;
+    }
+
+    .caminha_img {
+        height: 65%;
+        width: 85%;
+        border-radius: 12px 12px 0px 0px;
+    }
+
+    .caminha2_img {
+        height: 65%;
+        width: 85%;
+        border-radius: 0px 0px 12px 12px;
+        margin-bottom: 40px;
+    }
+
+    .title_caminhas {
+        display: flex;
+        justify-content: center;
+        background-color: #7EB6A4;
+        padding: 0;
+        align-items: flex-end;
+        margin: 0;
+        border-style: solid;
+        border-radius: 12px 12px 0px 0px;
+        padding: 0%;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        margin-bottom: 10px;
+    }
+
+
+    .sobre_nos_container {
+        display: flex;
+        justify-content: space-between;
+        background-color: #9BD6BF;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #759587;
+        border-width: 2px;
+    }
+
+    .sobre_nos_txt {
+        border-style: solid;
+        border-radius: 10px;
+        border-color: #759587;
+        border-width: 2px;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Nosifer', sans-serif;
+        font-family: 'Playpen Sans', cursive;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .sobre_nos_video {
+        padding-top: 20px;
+    }
+
+    #whatsapp_button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #25D366;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 50px auto auto;
+    }
+
+    #whatsapp_button :hover {
+        background-color: #128C7E;
+    }
+
+    #whatsapp_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+}
